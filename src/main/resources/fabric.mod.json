@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "angel_carpet",
+  "version": "${version}",
+  "name": "AngelCarpet",
+  "description": "carpet additional features",
+  "authors": [
+    "aria1th"
+  ],
+  "contact": {
+    "homepage": "https://github.com/aria1th/angel-carpet",
+    "sources": "https://github.com/aria1th/angel-carpet"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "aria1th.angelcarpet.carpet.AngelServer"
+    ]
+  },
+  "mixins": [
+    "angel-carpet.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.3",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  }
+}
+
