@@ -7,6 +7,6 @@
  
 ** renewableCalcite ** : Bonemealing Cobblestone will make it into Calcite
 	
-** allayDuping ** : allay will dupe when jukebox with music disc is found nearby(4x4x4) + amethyst interaction.
+** warmSheep ** : Sheeps won't get free damage from powder snow.
 	
-** allayDupingWithItems ** : allay will dupe, *but with holding items.*
+** plantableWitherRoseOnNetherBricks ** : You can plant wither roses on nether bricks.
