@@ -2,7 +2,11 @@
 
 on:
     push:
+      # ignore *.md *.yml file changes
         branches: [ '*' ]
+        paths-ignore:
+          - '**.md'
+          - '**.yml'
     pull_request:
         branches: [ '*' ]
 
