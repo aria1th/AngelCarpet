@@ -1,28 +1,23 @@
 package aria1th.angelcarpet.carpet;
 
-import carpet.settings.Rule;
+import carpet.api.settings.Rule;
 
-import static carpet.settings.RuleCategory.*;
+import static carpet.api.settings.RuleCategory.*;
 
 public class CarpetExtensionSettings {
 	@Rule(
-		desc = "Bonemealing Cobblestone will convert it into Calcite",
-		category = { FEATURE, SURVIVAL}
+		categories = {FEATURE, SURVIVAL, EXPERIMENTAL}
 	)
 	public static boolean renewableCalcite = false;
 	@Rule(
-		desc = "Introduce allay duping behavior",
-		category = {FEATURE, SURVIVAL, EXPERIMENTAL}
+		categories = {FEATURE, SURVIVAL, EXPERIMENTAL}
 	)
-	public static boolean allayDuping = false;
-	@Rule(
-		desc = "Introduce allay duping behavior with holding Items",
-		category = {FEATURE, SURVIVAL, EXPERIMENTAL}
-	)
-	public static boolean allayDupingWithItems = false;
-	@Rule(
-		desc = "Sheep does not freeze in powder snow",
-		category = {FEATURE, SURVIVAL, EXPERIMENTAL}
-	)
+	// sheeps don't freeze in powder snow
 	public static boolean warmSheep = false;
+
+	@Rule(
+		categories = {FEATURE, SURVIVAL, EXPERIMENTAL}
+	)
+	// wither roses can be planted on nether bricks and red variants
+	public static boolean plantableWitherRoseOnNetherBricks = false;
 }

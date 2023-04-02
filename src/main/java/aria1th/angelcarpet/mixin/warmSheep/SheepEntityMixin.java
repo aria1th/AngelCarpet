@@ -1,4 +1,4 @@
-package aria1th.angelcarpet.mixin.renewableCalcite;
+package aria1th.angelcarpet.mixin.warmSheep;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
