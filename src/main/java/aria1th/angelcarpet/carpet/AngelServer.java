@@ -31,6 +31,6 @@ public class AngelServer implements CarpetExtension, ModInitializer {
 
 	@Override
 	public Map<String, String> canHasTranslations(String lang) {
-		return Translations.getTranslationFromResourcePath("assets/angelcarpet/lang/%s.json".formatted(lang));
+		return GeneralCarpetTranslations.getTranslationFromResourcePath(lang);
 	}
 }

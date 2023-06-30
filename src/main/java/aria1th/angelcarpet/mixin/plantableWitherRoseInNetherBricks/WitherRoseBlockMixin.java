@@ -15,7 +15,7 @@ import static aria1th.angelcarpet.carpet.CarpetExtensionSettings.plantableWither
 @Mixin(WitherRoseBlock.class)
 public abstract class WitherRoseBlockMixin {
 	@Inject(method = "canPlantOnTop", at = @At("HEAD"), cancellable = true)
-	private static void canPlantOnTop(BlockState floor, BlockView world, BlockPos pos, CallbackInfoReturnable<Boolean> cir){
+	private void canPlantOnTop(BlockState floor, BlockView world, BlockPos pos, CallbackInfoReturnable<Boolean> cir){
 		if (plantableWitherRoseOnNetherBricks && (floor.isOf(Blocks.NETHER_BRICKS) || floor.isOf(Blocks.RED_NETHER_BRICKS))){
 			cir.setReturnValue(true);
 		}

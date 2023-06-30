@@ -12,12 +12,11 @@ public class CarpetExtensionSettings {
 	@Rule(
 		categories = {FEATURE, SURVIVAL, EXPERIMENTAL}
 	)
-	// sheeps don't freeze in powder snow
 	public static boolean warmSheep = false;
-
+	// sheeps don't freeze in powder snow
 	@Rule(
 		categories = {FEATURE, SURVIVAL, EXPERIMENTAL}
 	)
-	// wither roses can be planted on nether bricks and red variants
 	public static boolean plantableWitherRoseOnNetherBricks = false;
+	// wither roses can be planted on nether bricks and red variants
 }
