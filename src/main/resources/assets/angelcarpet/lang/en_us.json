@@ -1,5 +1,7 @@
 {
   "carpet.rule.renewableCalcite.desc" : "Allows you to use bonemeal on cobblestone to get calcite",
   "carpet.rule.warmSheep.desc" : "Sheep does not freeze in powder snow",
-  "carpet.rule.plantableWitherRoseOnNetherBricks.desc" : "Wither roses can be planted on nether bricks"
+  "carpet.rule.plantableWitherRoseOnNetherBricks.desc" : "Wither roses can be planted on nether bricks",
+  "carpet.rule.autoTrade.desc" : "with dispenser + emerald/diamond block being placed nearby, villagers will automatically trade with it, it uses redstone signal to get trade index",
+  "carpet.rule.autoTradeLimit.desc" : "If enabled, auto trade will be limited normally as if the player was trading with the villager"
 }
